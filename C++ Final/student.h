@@ -43,16 +43,8 @@ public:
 	void setDaysToComplete(int daysToComplete[]);
 	void setDegreeProgram(DegreeProgram degreeProgram);
 
-	/* print variables */
+	/* print */
 	void print();
-	void printStudentID();
-	void printFirstName();
-	void printLastName();
-	void printEmailAdd();
-	void printAge();
-	void printDaysToComplete();
-	void printDegreeProgram();
-
 };
 
 #endif /* STUDENT_H */
