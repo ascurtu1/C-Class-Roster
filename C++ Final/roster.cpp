@@ -109,11 +109,9 @@ void Roster::printInvalidEmails() {
 		string emailAdd = (classRosterArray[i]->getEmailAdd());
 		if ((emailAdd.find('@') == string::npos) || (emailAdd.find(' ') != string::npos) || (emailAdd.find('.') == string::npos)) {
 			any = true;
-			cout << emailAdd << ': ' << "is not valid" << endl;
+			cout << emailAdd << ': ' << " is not valid" << endl;
 		}
-		else {
-			cout << "None invalid" << endl;
-		}
+
 	}
 }
 
